@@ -23,4 +23,5 @@ How to transform `slides.html` to PDF format?
 ## Python good reads
 
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook)
+- [進擊的資料科學](https://medium.com/datainpoint/data-science-in-action/home)
 - [DataCamp](https://www.datacamp.com?tap_a=5644-dce66f&tap_s=194899-1fb421&utm_medium=affiliate&utm_source=tonykuo)
