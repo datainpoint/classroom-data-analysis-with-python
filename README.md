@@ -4,7 +4,7 @@ Classroom: Data Analysis with Python.
 
 ## General information
 
-- Pre-requisites: None.
+- Pre-requisites: Programming with Python.
 - Institute: NTU CSIE Codecamp.
 - Instructor: Kuo, Yao-Jen <yaojenkuo@datainpoint.com> from [DATAINPOINT](https://www.datainpoint.com).
 
