@@ -1,0 +1,5 @@
+{
+    "00-functions-classes-and-modules-in-python": "重要觀念複習：函數、類別與模組（套件）",
+    "01-array-computing-with-numpy": "以 NumPy 運算陣列",
+    "02-dataframe-wrangling-with-pandas": "以 Pandas 處理表格式資料"
+}
