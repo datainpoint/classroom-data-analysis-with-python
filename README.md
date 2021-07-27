@@ -10,11 +10,10 @@ Classroom: Data Analysis with Python.
 
 ## Lecture notes
  
-- [Array Computing with NumPy](00-array-computing-with-numpy/lecture.slides.html)
-- [DataFrame Wrangling with Pandas](01-dataframe-wrangling-with-pandas/lecture.slides.html)
-- [Data Visualization with Matplotlib](02-data-visualization-with-matplotlib/lecture.slides.html)
-- [Web Scraping with Python: Transferring Data](03-web-scraping-with-python/transferring-data.slides.html)
-- [Web Scraping with Python: Parsing Data](03-web-scraping-with-python/parsing-data.slides.html)
+- [Array Computing with NumPy](01-array-computing-with-numpy/lecture.slides.html)
+- [DataFrame Wrangling with Pandas](02-dataframe-wrangling-with-pandas/lecture.slides.html)
+- [Data Visualization with Matplotlib](03-data-visualization-with-matplotlib/lecture.slides.html)
+- [Web Scraping with Python](04-web-scraping-with-python/lecture.slides.html)
 
 How to transform `slides.html` to PDF format?
 - Add `?print-pdf` at the end of `slides.html` making it `slides.html?print-pdf` and press enter
