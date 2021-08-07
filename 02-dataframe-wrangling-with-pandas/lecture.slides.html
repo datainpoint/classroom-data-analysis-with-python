@@ -14865,12 +14865,13 @@ Int64Index([1, 9, 15, 21, 25, 27], dtype=&#39;int64&#39;)
 </div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_latest_daily_report</span><span class="p">():</span>
     <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    This function returns the latest global daily report from https://github.com/CSSEGISandData/COVID-19 and its file date.</span>
+<span class="sd">    This function returns the latest global daily report from https://github.com/CSSEGISandData</span>
+<span class="sd">    /COVID-19 and its file date.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">latest_date</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="o">.</span><span class="n">today</span><span class="p">()</span>
     <span class="n">day_delta</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">timedelta</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
@@ -14878,7 +14879,8 @@ Int64Index([1, 9, 15, 21, 25, 27], dtype=&#39;int64&#39;)
     <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
         <span class="k">try</span><span class="p">:</span>
             <span class="n">latest_date_fmt</span> <span class="o">=</span> <span class="n">latest_date</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="n">fmt</span><span class="p">)</span>
-            <span class="n">csv_url</span> <span class="o">=</span> <span class="s2">&quot;https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/</span><span class="si">{}</span><span class="s2">.csv&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">latest_date_fmt</span><span class="p">)</span>
+            <span class="n">csv_url</span> <span class="o">=</span> <span class="s2">&quot;https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master</span><span class="se">\</span>
+<span class="s2">/csse_covid_19_data/csse_covid_19_daily_reports/</span><span class="si">{}</span><span class="s2">.csv&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">latest_date_fmt</span><span class="p">)</span>
             <span class="n">daily_report</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">csv_url</span><span class="p">)</span>
             <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;載入了 </span><span class="si">{}</span><span class="s2"> 的每日報告。&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">latest_date_fmt</span><span class="p">))</span>
             <span class="k">break</span>
@@ -14897,7 +14899,7 @@ Int64Index([1, 9, 15, 21, 25, 27], dtype=&#39;int64&#39;)
 </div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">daily_report</span> <span class="o">=</span> <span class="n">get_latest_daily_report</span><span class="p">()</span>
@@ -14920,9 +14922,8 @@ Int64Index([1, 9, 15, 21, 25, 27], dtype=&#39;int64&#39;)
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>尚未有 07-11-2021 的每日報告。
-尚未有 07-10-2021 的每日報告。
-載入了 07-09-2021 的每日報告。
+<pre>尚未有 08-07-2021 的每日報告。
+載入了 08-06-2021 的每日報告。
 </pre>
 </div>
 </div>
